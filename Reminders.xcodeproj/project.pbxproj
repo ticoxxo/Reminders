@@ -11,6 +11,12 @@
 		C1472C212C8F786A00DF0512 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1472C202C8F786A00DF0512 /* ContentView.swift */; };
 		C1472C232C8F786B00DF0512 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1472C222C8F786B00DF0512 /* Assets.xcassets */; };
 		C1472C262C8F786B00DF0512 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1472C252C8F786B00DF0512 /* Preview Assets.xcassets */; };
+		C1472C2D2C8FA7F000DF0512 /* Priority.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1472C2C2C8FA7F000DF0512 /* Priority.swift */; };
+		C1472C2F2C8FABDF00DF0512 /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1472C2E2C8FABDF00DF0512 /* Reminder.swift */; };
+		C1472C312C90DB0100DF0512 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1472C302C90DB0100DF0512 /* Storage.swift */; };
+		C1472C332C90DC7300DF0512 /* ReminderRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1472C322C90DC7300DF0512 /* ReminderRowView.swift */; };
+		C1472C352C90DE2900DF0512 /* ReminderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1472C342C90DE2900DF0512 /* ReminderView.swift */; };
+		C1472C392C90E3A500DF0512 /* ReminderListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1472C382C90E3A500DF0512 /* ReminderListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		C1472C202C8F786A00DF0512 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C1472C222C8F786B00DF0512 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C1472C252C8F786B00DF0512 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C1472C2C2C8FA7F000DF0512 /* Priority.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Priority.swift; sourceTree = "<group>"; };
+		C1472C2E2C8FABDF00DF0512 /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
+		C1472C302C90DB0100DF0512 /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
+		C1472C322C90DC7300DF0512 /* ReminderRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderRowView.swift; sourceTree = "<group>"; };
+		C1472C342C90DE2900DF0512 /* ReminderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderView.swift; sourceTree = "<group>"; };
+		C1472C382C90E3A500DF0512 /* ReminderListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +67,12 @@
 				C1472C202C8F786A00DF0512 /* ContentView.swift */,
 				C1472C222C8F786B00DF0512 /* Assets.xcassets */,
 				C1472C242C8F786B00DF0512 /* Preview Content */,
+				C1472C2C2C8FA7F000DF0512 /* Priority.swift */,
+				C1472C2E2C8FABDF00DF0512 /* Reminder.swift */,
+				C1472C302C90DB0100DF0512 /* Storage.swift */,
+				C1472C322C90DC7300DF0512 /* ReminderRowView.swift */,
+				C1472C342C90DE2900DF0512 /* ReminderView.swift */,
+				C1472C382C90E3A500DF0512 /* ReminderListView.swift */,
 			);
 			path = Reminders;
 			sourceTree = "<group>";
@@ -138,7 +156,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				C1472C212C8F786A00DF0512 /* ContentView.swift in Sources */,
+				C1472C332C90DC7300DF0512 /* ReminderRowView.swift in Sources */,
 				C1472C1F2C8F786900DF0512 /* RemindersApp.swift in Sources */,
+				C1472C352C90DE2900DF0512 /* ReminderView.swift in Sources */,
+				C1472C2D2C8FA7F000DF0512 /* Priority.swift in Sources */,
+				C1472C2F2C8FABDF00DF0512 /* Reminder.swift in Sources */,
+				C1472C392C90E3A500DF0512 /* ReminderListView.swift in Sources */,
+				C1472C312C90DB0100DF0512 /* Storage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
